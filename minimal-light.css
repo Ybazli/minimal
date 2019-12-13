@@ -1,0 +1,93 @@
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Merriweather"), local("Merriweather-Regular"),
+		url("./minimal/Merriweather-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 900;
+	src: local("Merriweather-Black"), local("Merriweather-Black"),
+		url("./minimal/Merriweather-Black.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Merriweather-Bold"), local("Merriweather-Bold"),
+		url("./minimal/Merriweather-Bold.ttf") format("truetype");
+}
+
+html,
+body {
+	background-color: #fff !important;
+	font-family: Merriweather, sans-serif; /*custom font*/
+	color: #4a556;
+}
+h1 {
+	font-weight: 900;
+	font-size: 36px;
+	letter-spacing: -1px;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+}
+html {
+	font-size: 14px; /*default font size*/
+}
+a {
+	color: #38b2a7;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+#write {
+	max-width: 700px; /*adjust size of the wriring area*/
+	width: 100%;
+	margin: auto auto;
+	font-size: 16px; /*basic font size*/
+	font-color: #555; /*basic font color*/
+	line-height: 1.618;
+}
+hr {
+	border: 1px solid #f4f4f4;
+}
+
+.md-fences,
+code,
+tt {
+	background-color: #f4f4f4;
+	border-radius: 3px;
+	font-size: 0.9em;
+	/* color: #cdcdcd; */
+}
+code {
+	background-color: #f4f4f4;
+	padding: 5px 2px;
+	/* color: #cdcdcd; */
+}
+pre,
+code {
+	font-family: menlo;
+	font-size: 14px;
+}
+pre {
+	padding: 5px 5px !important;
+	border-radius: 8px;
+}
+blockquote {
+	font-style: italic;
+	font-weight: 100;
+	border-left: 5px solid #f4f4f4;
+	padding: 5px 0px 5px 10px;
+	margin: auto;
+}
